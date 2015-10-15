@@ -1,0 +1,85 @@
+<!--
+Gio Lapid 
+Tech Foundations
+Portfolio
+
+interests page of my website
+-->
+
+<!DOCTYPE html>
+<html>
+<!--HEAD and CSS-->
+<head>
+		<meta charset="utf-8">
+        <title>Gio Lapid|Interests</title>
+        <link rel='stylesheet' type='text/css' href='../css/main.css'/>
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+<!--Body-->    
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
+        </ul>
+    </nav>
+			<header>
+				<h1>Gio Lapid|Year Up Intern</h1>
+				<h3>Aspiring Network Security Engineer</h3>
+			</header>  
+	<div class="interest" id="interest1">
+		<h2>Brazilian Jiu-Jitsu</h2>
+		<a href="http://www.ralphgraciesf.com"><img src="img/rgsf.jpg" alt="Ralph Gracie Logo"></a>
+		<p>I am an avid practicioner of Brazilian Jiu-Jitsu. I've been training for three years now. I currently represent Gracie Elite Team via Ralph Gracie Jiu Jitsu. I've competed throughout my whole career, I've medalled in the Pan-American Championships, San Francisco Open Championships and New York Open Championship just to name a few. This is my favorite hobby and it's a fun way to stay healthy and interact with like minded people. </p>
+	</div>
+	<div class="interest" id="interest2">
+		<h2>Travel</h2>
+		<img src="img/wanderlust.jpg" alt="Wanderlust definition">
+		<p>I love travelling, especially alone, because you find out so much about yourself. You have to push yourself to the limit in order to explore new cultures, new food, and new perspectives in life. I never thought travelling would be one of my priorities in life, but every day I dream about my next big trip!</p>
+        <p id = "list" style="cursor: pointer;" onclick="openList()">Cities I've been to are: (click to show)</p>
+			<ul id="ullist" style = "display: none;">
+				<li>Stockholm, Sweden</li>
+				<li>Copenhagen, Denmark</li>
+				<li>Berlin, Germany</li>
+				<li>Prague, Czech Republic</li>
+				<li>Krakow, Poland</li>
+				<li>Budapest, Hungary</li>
+				<li>Belgrade, Serbia</li>
+				<li>Sofia, Bulgaria</li>
+				<li>Istanbul, Turkey</li>
+				<li>Rome, Italy</li>
+				<li>Bologna, Italy</li>
+				<li>Venice, Italy</li>
+				<li>Florence, Italy</li>
+				<li>Lucerne, Switzerland</li>
+				<li>Zurich, Switzerland</li>
+				<li>Lyon, France</li>
+				<li>Paris, France</li>
+				<li>Madrid, Spain</li>
+				<li>Barcelona, Spain</li>
+			</ul>
+	</div>
+	<div class="interest" id="interest3">
+		<h2>Personal Growth</h2>
+		<p>I always look to be more efficient in my life. I love to learn new techniques about all aspects of life. My role model in personal development is Tim Ferris since he is an expert in life hacking. I believe life hacking is the best way to learn anything you want and learn it efficiently.</p>
+		<img src="img/chess.jpg" alt="Pawn mirror king">
+	</div><!--END OF Interests-->
+	<footer>
+		&copy;Gio Lapid
+	</footer> 
+         
+    <script>
+        function openList(){
+            var list = document.getElementById("ullist");
+            
+            if(list.style.display == "none"){
+                list.style.display = "block";
+            }else{
+                list.style.display = "none";
+            }
+        }     
+    </script>
+</body>
+</html>

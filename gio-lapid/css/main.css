@@ -1,0 +1,74 @@
+
+/*This is the CSS file for my portfolio website*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+	background-color: #860038;
+	color:#FDBB30;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+}
+img{
+	width: 250px; 
+	height: 250px;
+	border-radius: 100%;
+	border: 3px solid #002D62;
+}
+
+footer{
+	color: #002D62;
+}
+
+#yearup{
+	width: 250px; 
+	height: 100px;
+	border-radius: 0%;
+	border: 3px solid #002D62;
+}
+
+nav{
+    height: 50px;
+    background-color: #002D62;
+}
+
+nav ul{
+    height: 50px;
+    width: 600px;
+    margin: 10px auto;
+}
+
+nav ul li{
+    list-style-type: none;
+    width: 150px;
+    float: left;
+    text-align: center;
+}
+
+li a{
+    text-decoration: none;
+    color: #FDBB30;
+    line-height: 50px;
+    display: block;
+}
+
+li a:hover {
+    background-color: #FDBB30;
+    color: #002D62;
+}
+header{
+    width: 50%;
+    padding: 25px;
+    border: 5px solid #FDBB30;
+    margin: 0 auto;
+    background-color: #002D62; 
+    color: #FDBB30;
+    
+}
+
+#ullist{
+     list-style-type: none;
+}

@@ -1,0 +1,54 @@
+<!--
+Gio Lapid 
+Tech Foundations
+Portfolio
+
+index of my personal website
+-->
+
+<!DOCTYPE html>
+<html>
+
+<!--HEAD and CSS-->
+<head>
+        <title>Gio Lapid|Home</title>
+        <link rel='stylesheet' type='text/css' href='../css/main.css'/>
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+
+<!--Body-->    
+
+<body onload="userName()">
+	 <nav>
+        <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
+        </ul>
+    </nav>   
+		<h1 id="welcome"></h1>
+		<div class="header">
+			<header>
+				<img id="myImage" src="img/myImage.jpg" alt="Gio Lapid">
+				<h1>Gio Lapid|Year Up Intern</h1>
+				<h3>Aspiring Network Security Engineer</h3>
+			</header>
+		</div><!--END OF HEADER-->    
+		
+		<div class="home-content"> 
+			<p>"If you guys are really wondering if you are burning out mentally. Take a day off and go to your local hospital. Go to the cancer wing. Look at a 4 year old, who wont ever see their teenage years, probably wont ever see their next birthday. Go and see someone who is mentally or physically retarded, or see when a soldier who just came back from war who doesnt have legs anymore. Stare that guy down. Look him right in the eyes and tell him, as you stand there with 2 capable legs that you are burned out. That you dont want to use them. See if that doesnt kill him right there. Because he would do anything to have that opportunity." -Greg Plitt</p>
+		</div>
+		<footer>
+			<div class="footer">
+				&copy;Gio Lapid
+			</div>
+		</footer>
+	<script>
+		function userName(){
+			var name = prompt("What is your name?")
+			document.getElementById("welcome").innerHTML= "Hello " + name + ", welcome to my page!";
+		}
+	</script><!--JS-->
+</body>
+</html>
