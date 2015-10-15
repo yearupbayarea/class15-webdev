@@ -1,0 +1,116 @@
+header {
+
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+
+
+        body {
+      text-align: center;
+      background: url("images/background.jpeg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-family: Arial;
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 20px;
+      font-size: 20px;
+    }
+    input[type="submit"] {
+      background: blue;
+      color: red;
+    }
+
+a:hover {
+  color: #D09412;
+}
+
+h2 {
+  color:#D09412;
+}
+
+#imagetwo {
+
+    border: 7px solid black;
+        float: left;
+
+ }
+
+ #image {
+
+    border: 7px solid black;
+    float: right;
+}
+
+
+
+ #headtwo {
+      text-align: center;
+      background: url("images/InterestsHeader.jpg");
+      background-size: cover;
+      color: white;
+     }
+
+#ImageYU {
+        margin: 40px 0px 0px 0px;
+      border: 7px solid black;
+      border-radius: 20px;
+}
+
+#copyright {
+  text-align: right;
+  font-size: 12px;
+}
+
+#Logo {
+  float: right;
+  border: 7px solid green;
+}
+
+ input[type="submit"] {
+      background: rgba(0,0,0,0.5);
+      color: green;
+      padding: 30px;
+    }
