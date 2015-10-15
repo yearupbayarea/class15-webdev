@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href='body-test.css' rel='stylesheet' type='text/css'>
+<link href='animate.css' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <title>Angela Lopez</title>
+</head>
+  <body>
+    <ul class="navigation">
+    <li class="nav-item"><a href="Index.html">Home</a></li>
+    <li class="nav-item"><a href="Portfolio.html">Portfolio</a></li>
+    <li class="nav-item"><a href="AboutMe.html">About</a></li>
+    <li class="nav-item"><a href="Contact.html">Contact</a></li>
+    </ul>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+
+<div class="site-wrap">
+
+  <h1 id="Welcome" class="animated infinite bounce">Yo</h1>
+
+  <div id="box">
+    <input type="text" id="userInput" placeholder="Enter Your Name" />
+    <input type="submit" onClick="userName()" />
+  </div>
+
+  <script>
+
+   function userName() {
+
+   var name = document.getElementById("userInput").value;
+
+   document.getElementById("Welcome").innerHTML = "YOOOO " + name + ", welcome to my website!";
+
+   }
+
+  </script>
+
+      <!--<img src="http://i.imgur.com/Bll7bx6.jpg"id="self"/>-->
+  <img src="images/pug.jpg" id="pug" alt="Pug in the wind"/>
+
+   <div class="footer">
+    Copyright &copy; All Rights Reserved &middot; Angela Lopez    
+    </div>
+
+</div>
+  </body>
+</html>
