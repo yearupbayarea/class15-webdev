@@ -1,0 +1,69 @@
+header {
+      text-align: center;
+      background: url("images/purpleFlower_background.jpg");
+      background-size: cover;
+      color: Black;
+    }
+a {
+      color: white;
+    }
+a:hover {
+      background-color: Plum;
+      color: Black;
+    }
+h1 {
+      font-size: 50px;
+      font-family:"lucida calligraphy",arial,'sans serif';
+    }
+h2 {
+      color: Black;
+      font-family:"lucida calligraphy",arial,'sans serif';
+      text-align: center;
+    }
+img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      color: white;
+    }
+li:hover {
+      background-color: Plum;
+      color: Black;
+    }
+article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      border: 7px solid black;
+      border-radius: 20px;
+      color: Indigo;
+      background: Plum;
+    }
+em {
+      color: White;
+}
+@media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+.copyright {
+      text-align: center;
+    }
+img.image {
+      height: 175px;
+      width: 150px;
+    }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	<style>
+		img {
+			height: 200px;
+      		width: 200px;
+		}
+	</style>
+	<title>Feuy's Favorite Food</title>
+</head>
+<body>
+  <header>
+  <img src="images/feuy.jpg" alt="Personal Photo">
+    <h1>Feuy's Favorite Food</h1>
+    <ul>
+      <li><a href="mainpage.html">About Me</a></li>
+      <li>Favorite Food</li>
+      <li><a href="favoritemovie.html">Favorite Movie</a></li>
+      <li><a href="favoritehobby.html">Favorite Hobby</a></li>
+    </ul>
+  </header>
+  <article>
+  	<h2>Thai Food!!!</h2>
+  		<p>I love Thai food! You can never go wrong with Thai food. I love how they use so many varieties of herbs and spices in their cooking to bring out the flavors. Here are some pictures of my personal favorites.
+  		</p>
+      	<p id="change1">Can you guess the names of these dish?</p>
+			<button type="button" onclick="myFunction()">Click for the Answer</button>
+			<script>
+			function myFunction() {
+    		document.getElementById("change1").innerHTML = "<em>Larb, Pad Thai, Papaya Salad!</em>";
+			}
+			</script>
+      	<p>You should try some of these food if you haven't already.</p>
+  		  	<img class="image" src="images/thai_food_larb.jpg" alt="Thai food, Larb"/>
+  		  	<img class="image" src="images/thai_food_padthai.jpg" alt="Thai food, pad thai"/>
+  		  	<img class="image" src="images/thai_food_papayasalad.jpg" alt="Thai food, papaya salad"/>
+  </article>
+  <article>
+  	<h2>Laos Food!!!</h2>
+  		<p>Laos food is similar to Thai food. They also have papaya salad, larb, etc. Its the same dish but they just add different ingredients to it. Sometimes it's hard to even differentiate between the two. Here are some Laos food that I enjoy eating.
+  		</p>
+      	<p id="change2">Can you guess the names of these dish?</p>
+			<button type="button" onclick="myFunction2()">Click for the Answer</button>
+			<script>
+			function myFunction2() {
+    		document.getElementById("change2").innerHTML = "<em>Nam Khao, Laos Sausage, and Kapiak!</em>";
+			}
+			</script>
+      	<p>All of the food talk is making me hungry!</p>
+  			<img class="image" src="images/laos_food_nam_khao.jpg" alt="Laos food, nam khao"/>
+  			<img class="image" src="images/laos_food_sausage.png" alt="Laos food, sausage"/>
+  			<img class="image" src="images/laos_food_kapiak.jpg" alt="Laos food, kapiak"/>
+  </article>
+  <p class="copyright">Copyright&copy;2015 Feuy Saeyang. All Rights Reserved</p>
+</body>
+</html>
