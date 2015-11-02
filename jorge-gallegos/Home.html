@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="P2.css">
+  <style>
+  footer {
+    color: white; 
+  }
+  a:hover {
+    color: red
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/Bridge.jpg" alt="bridge">
+    <h1>Jorge's Blog</h1>
+    <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="accomplishments.html">Accomplishments</a></li>
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="music.html">Music</a></li>
+    </ul>
+    </nav>
+    <h1>Hello and welcome to my website.</h1>
+    <h2>Before you dive into the website, I have a question for you. If you could change your name to anything <span>what would it be</span>?</h2>
+  </header>
+  <center>
+    <h2 id="welcome">I would change my name to...</h2>
+  <input type="text" id="userInput" placeholder="name">
+  <input type="submit" onclick="userName()">
+  <script>
+  function userName() {
+  var name = document.getElementById("userInput").value;
+  document.getElementById("welcome").innerHTML = "I would change my name to " + name + ".";
+}
+  </script>
+  <script>
+document.getElementById("welcome").style.color = "white";
+  </script>
+  </center>
+    <footer>
+      <address>&copy; Copyright 2015 All Rights Reserved Jorge Gallegos Inc</address>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+html { 
+  background: url(http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}header {
+      text-align: center;
+      background: url('');
+      background-size: fill;
+      color: white;
+}
+a {
+  color: white;
+}
+h1 {
+      font-size: 70px;
+}
+img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+}
+ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    background-color: black;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    color: white;
+    margin: 8px 22px 8px 22px;
+    overflow: hidden;
+    width: 90%; 
+    }
+article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    color:white;
+}
+@media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+}
+li {
+  padding: 5px;
+  display: block;
+}
+footer {
+  color: white;
+}
+a:hover {
+  color: red;
+}
